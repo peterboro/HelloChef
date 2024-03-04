@@ -473,18 +473,6 @@
     background-color: #c0392b;
 }
 
-/* .sectionSix .bannerPar {
-    margin-top: 250px;
-}
-
-.sectionSix .bannerPar p {
-    margin-bottom: -200px;
-    color: #484848;
-    font-size: 1px;
-    font-weight: 300;
-} */
-
-
 .footerContainer {
     height: 80vh;
 }
@@ -505,21 +493,14 @@
 }
 
 .footerContainer .footerMenu h3 {
-    /* margin-top: 20px; */
     display: inline-block; 
-    /* vertical-align: top; */
-    /* margin-bottom: 10px;  */
 }
 
 .footerContainer .footerMenu p {
-    /* margin-top: 10px; */
     color: #484848;
 }
 
 .footerContainer .footerMenu p {
-    /* display: inline-block;  */
-    /* vertical-align: top; */
-    /* margin-top: 10px; */
     margin-right: 20px; 
 }
 
