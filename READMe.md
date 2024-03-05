@@ -3,6 +3,9 @@
 ## Description:
 This project is a simple website for HelloChef, a meal subscription service based in Dubai. The website showcases various sections such as plans, menu, how it works, testimonials, and contact information.
 
+## LIVE DEMO
+[LIVE DEMO](https://peterboro.github.io/HelloChef/)
+
 ## MockUp
 ![HelloChefMockUp1](https://github.com/peterboro/HelloChef/assets/27219880/5db45182-5f35-484a-92b4-0829c1a6207a)
 
