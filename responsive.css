@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .sectionOne .navbar {
       padding: 0 20px;
   }
@@ -146,7 +146,6 @@
   }
 }
 
-/* Adjustments for even smaller screens */
 @media only screen and (max-width: 480px) {
   .sectionOne .logo img {
       width: 60px;
@@ -299,4 +298,252 @@
         font-size: 12px;
     }
 
+} */
+
+
+
+@media screen and (max-width: 1024px) {
+    .bannerText {
+        margin-top: 50px;
+    }
+
+    .bannerText h1 {
+        font-size: 28px;
+    }
+
+    button {
+        padding: 12px 24px;
+    }
+
+    .sectionTwo .content .principle {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .sectionThree .principle {
+        height: 90%;
+        width: 30%;
+    }
+
+    .sectionThree {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .sectionThree .image,
+    .sectionThree .imageDescription {
+        height: 50%;
+        width: 100%;
+    }
+
+    .sectionThree .image {
+        height: 40%;
+        background-position: top;
+    }
+
+    .sectionThree .imageDescription {
+        height: 60%;
+    }
+
+    .sectionThree .content {
+        height: 90%;
+    }
+
+    .sectionFour p {
+        width: 70%;
+        margin: auto;
+    }
+
+    .sectionFour .menu-item {
+        width: 30%;
+        height: 80%;
+    }
 }
+
+@media screen and (max-width: 830px) {
+    .bannerText {
+        width: 45%;
+    }
+
+    .sectionTwo {
+        height: 130vh;
+        padding: 20px 0;
+    }
+
+    .sectionTwo h2 {
+        height: auto;
+    }
+
+    .sectionTwo .content {
+        flex-direction: column;
+        align-items: center;
+        height: 92%;
+
+    }
+
+    .sectionTwo .content .principle {
+        height: 30%;
+        width: 80%;
+    }
+
+    .sectionFour .menu {
+        flex-direction: column;
+        height: 60%;
+        margin: 20px 0;
+    }
+
+    .sectionFour .menu-item {
+        width: 40%;
+        height: 30%;
+    }
+
+    .sectionFour button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar .navigation {
+        display: none;
+    }
+
+    .bannerText {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .sectionOne .bannerText {
+        width: 75%;
+    }
+
+    .sectionOne .bannerText h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .sectionOne .bannerText p {
+        font-size: 14px;
+    }
+
+    .sectionOne .bannerText button {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .sectionTwo {
+        height: 180vh;
+    }
+
+    .sectionTwo .content .principle {
+        width: 100%;
+    }
+
+    .sectionThree .content p {
+        font-size: 12px;
+    }
+
+    .sectionFive h2 {
+        font-size: 20px;
+    }
+
+    .sectionFive p {
+        font-size: 16px;
+    }
+
+    .sectionSix .bannerText h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .sectionSix .subscribe-container {
+        margin: 10px;
+    }
+
+    .sectionSix input[type="email"] {
+        font-size: 14px;
+    }
+
+    .footerContainer .footerMenu div {
+        width: 100%;
+    }
+
+    .footerContainer .ourBlog p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .footerContainer .reviews p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 442px) {
+    .bannerText {
+        width: 90%;
+    }
+
+    .sectionOne .bannerText h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .sectionOne .bannerText p {
+        font-size: 14px;
+    }
+
+    .sectionOne .bannerText button {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .sectionTwo .content .principle {
+        width: 100%;
+    }
+
+    .sectionThree .content p {
+        font-size: 12px;
+    }
+
+    .sectionFive h2 {
+        font-size: 20px;
+    }
+
+    .sectionFive p {
+        font-size: 16px;
+    }
+
+    .sectionSix .bannerText h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .sectionSix .subscribe-container {
+        margin: 10px;
+    }
+
+    .sectionSix input[type="email"] {
+        font-size: 14px;
+    }
+
+    .footerContainer .footerMenu div {
+        width: 100%;
+    }
+
+    .footerContainer .ourBlog p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .footerContainer .reviews p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+} 

@@ -1,0 +1,151 @@
+/* responsive.css */
+
+/* Responsive adjustments for screen sizes up to 1024px */
+@media screen and (max-width: 1024px) {
+  .sectionTwo .content {
+      flex-direction: column;
+  }
+
+  .sectionTwo {
+    gap: 10px; /* Add some gap between items */
+}
+
+  .sectionThree {
+      flex-direction: column-reverse;
+  }
+
+  .sectionFive .users {
+      grid-template-columns: repeat(2, 40%);
+  }
+
+  .sectionFive .sectFive {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+/* Responsive adjustments for screen sizes up to 830px */
+@media screen and (max-width: 830px) {
+  .sectionOne .navbar {
+      padding: 0 20px;
+  }
+
+  .sectionOne .bannerText {
+      width: 70%;
+  }
+
+  .sectionTwo {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+.sectionTwo .content .principle {
+  width: 80%; /* Adjust the width of principle items */
+  margin: 0 auto; /* Center principle items */
+}
+
+  .footerContainer .footerMenu {
+      flex-wrap: wrap;
+  }
+
+  .sectionThree .image,
+  .sectionThree .imageDescription {
+      width: 100%; /* Ensure full width for both sections */
+  }
+
+  .footerContainer .aboutUs,
+  .footerContainer .moreInfo,
+  .footerContainer .workwithUs,
+  .footerContainer .ourBlog,
+  .footerContainer .contactUs {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
+
+/* Responsive adjustments for screen sizes up to 720px */
+@media screen and (max-width: 720px) {
+  .sectionOne .navbar {
+      padding: 0 10px;
+  }
+
+  .sectionOne .bannerText {
+      width: 90%;
+  }
+
+  .sectionTwo {
+    gap: 20px; /* Increase gap between items */
+}
+
+  .sectionTwo .content .principle {
+      width: 90%;
+  }
+}
+
+/* Responsive adjustments for screen sizes up to 570px */
+@media screen and (max-width: 570px) {
+  .sectionOne .logo {
+      margin-left: 10px;
+  }
+
+  .sectionOne .navigation {
+      display: none;
+  }
+
+  .sectionOne .signIn {
+      display: none;
+  }
+
+  .sectionOne .bannerText h1 {
+      font-size: 28px;
+  }
+
+  .sectionTwo .content .principle {
+    width: 90%; /* Adjust width of principle items */
+}
+
+  .sectionFive h2 {
+      font-size: 28px;
+  }
+}
+
+/* Responsive adjustments for screen sizes up to 442px */
+@media screen and (max-width: 442px) {
+  .sectionOne .bannerText h1 {
+      font-size: 24px;
+  }
+
+  .sectionOne .bannerText p {
+      font-size: 16px;
+  }
+
+  .sectionOne .bannerText button {
+      font-size: 14px;
+  }
+
+  .sectionTwo .content .principle {
+    width: 100%; /* Ensure full width for principle items */
+}
+
+  .sectionFive h2 {
+      font-size: 24px;
+  }
+
+  .sectionFive p {
+      font-size: 20px;
+  }
+
+  .sectionFive .sectFive p {
+      font-size: 16px;
+  }
+
+  .sectionSix .bannerText h2 {
+      font-size: 28px;
+  }
+
+  .sectionSix .bannerText p {
+      font-size: 16px;
+  }
+}
